@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ARLAN\\Desktop\\Seminar_05.03\\zada4a_3_Pascal\\zada4a_3_Pascal.csproj": {}
+    "/Users/anri6a/Documents/Study/GB/MeetC#/examples/Seminar08-inGroup/zada4a_3_Pascal/zada4a_3_Pascal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ARLAN\\Desktop\\Seminar_05.03\\zada4a_3_Pascal\\zada4a_3_Pascal.csproj": {
+    "/Users/anri6a/Documents/Study/GB/MeetC#/examples/Seminar08-inGroup/zada4a_3_Pascal/zada4a_3_Pascal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ARLAN\\Desktop\\Seminar_05.03\\zada4a_3_Pascal\\zada4a_3_Pascal.csproj",
+        "projectUniqueName": "/Users/anri6a/Documents/Study/GB/MeetC#/examples/Seminar08-inGroup/zada4a_3_Pascal/zada4a_3_Pascal.csproj",
         "projectName": "zada4a_3_Pascal",
-        "projectPath": "C:\\Users\\ARLAN\\Desktop\\Seminar_05.03\\zada4a_3_Pascal\\zada4a_3_Pascal.csproj",
-        "packagesPath": "C:\\Users\\ARLAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ARLAN\\Desktop\\Seminar_05.03\\zada4a_3_Pascal\\obj\\",
+        "projectPath": "/Users/anri6a/Documents/Study/GB/MeetC#/examples/Seminar08-inGroup/zada4a_3_Pascal/zada4a_3_Pascal.csproj",
+        "packagesPath": "/Users/anri6a/.nuget/packages/",
+        "outputPath": "/Users/anri6a/Documents/Study/GB/MeetC#/examples/Seminar08-inGroup/zada4a_3_Pascal/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ARLAN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/anri6a/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.405/RuntimeIdentifierGraph.json"
         }
       }
     }

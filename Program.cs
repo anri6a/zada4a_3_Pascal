@@ -1,49 +1,49 @@
 ﻿
 // Задача 3: Вывести первые N строк треугольника Паскаля. Сделать 
 // вывод в виде равнобедренного треугольника
-
-// 1. создать массив
-
-Console.WriteLine("Введите длину массива: ");
-int[,] = create array Input[];
-int n = Input();
-
-// 2. ввод с клавиатуры Input
-
-int Input(string text)
+Console.WriteLine("enter number of rows: ");
+int n = Convert.ToInt32(Console.ReadLine());
+float Factorial(int n)
 {
-    Console.WriteLine(text);
-    int number = Convert.ToInt32(Console.ReadLine());
-    return number;
+    float factorial = 1;
+    for (int i = 1; i <= n; i++)
+        factorial *= i;
+    return factorial;
 }
-
-
-// 3. заполение массива
-void FillAsPaskal(int[,]matrix, int N)
+for (int i = 0; i <= n; i++)
 {
-    int rows = matrix.GetLength(0);
-    int columns = matrix.GetLength(1);
-    for (int i = 0; i < rows; i++)
+    for (int j = 0; j <= n-i; j++)
     {
-        for (int j = 0; j < columns; j++)
-        {
-           matrix[i,j]=Paskal(i,j);
-        }
+        Console.Write(" ");
     }
+    for (int j = 0; j <= i; j++)
+    {
+        Console.Write(" ");
+        Console.Write(Factorial(i)/(Factorial(j)*Factorial(i-j)));
+    }
+    Console.WriteLine();
+    Console.WriteLine();
 }
 
-int Paskal(int i, int j)
-{
-     if ( i == 0 || j == i) return 1;
-     return Paskal(i-1, k-1) + Paskal(i-1, j);
-}
 
-// 4. вывод 
+//   Console.WriteLine( "Введите высоту треугольника:\n");
+//   int n = Convert.ToInt32(Console.ReadLine());
 
+//   for (int row = 1; row <= n; ++row) 
+//   {
+//       int Cnk = 1; 
 
-C(long n, long k)
-{
-    if (k == 0 || n == k)
-        return 1;
-    return C(n - 1, k - 1) + C(n - 1, k);
-}
+//       for (int column = 1; column < (n - row + 1); ++column) 
+//       {
+//         Console.Write(" ");
+//       }
+
+//       for (int k = 1; k <= row; ++k) 
+//       {
+//         Console.Write(Cnk + " ");
+//         Cnk = Cnk *  (row - k) / k;
+//       }
+
+//       Console.Write("\n");
+//     }
+//   return 0;
